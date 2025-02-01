@@ -325,11 +325,11 @@ export default function Home() {
       {/* Bento Grid Section */}
       <section className='px-4 py-24 w-full sm:px-8 md:px-20'>
         <div className='mx-auto max-w-7xl'>
-          <h2 className='mb-8 text-3xl font-normal text-center sm:text-4xl text-stone-50'>
+          {/* <h2 className='mb-8 text-3xl font-normal text-center sm:text-4xl text-stone-50'>
             Augment All of Your Work on
             <br />
             One Integrated, Secure Platform
-          </h2>
+          </h2> */}
 
           <div className='flex flex-col gap-6 mt-16'>
             {/* Assistant Card */}
@@ -338,7 +338,7 @@ export default function Home() {
               <div className='bg-[#e4e0dd] rounded-t-lg lg:rounded-l-lg lg:rounded-tr-none overflow-hidden'>
                 <div className='aspect-square lg:aspect-auto lg:h-[568px] p-8 flex items-center justify-center'>
                   {/* Assistant UI mockup */}
-                  <div className='p-6 w-full max-w-md bg-white rounded-lg shadow-lg'>
+                  {/* <div className='p-6 w-full max-w-md bg-white rounded-lg shadow-lg'>
                     <div className='mb-4'>
                       <p className='text-gray-700'>Summarize th</p>
                     </div>
@@ -357,11 +357,11 @@ export default function Home() {
                     <button className='py-2 w-full text-white bg-black rounded'>
                       Ask Mike
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* Right side - Content */}
-              <div className='bg-[#151515] rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none'>
+              {/* <div className='bg-[#151515] rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none'>
                 <div className='aspect-square lg:aspect-auto lg:h-[568px] p-12 flex flex-col'>
                   <span className='mb-8 text-xl text-stone-50'>Assistant</span>
                   <div className='my-auto'>
@@ -395,13 +395,13 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Knowledge Card */}
             <div className='grid grid-cols-1 lg:grid-cols-2'>
               {/* Left side - Content */}
-              <div className='bg-[#151515] rounded-t-lg lg:rounded-l-lg lg:rounded-tr-none'>
+              {/* <div className='bg-[#151515] rounded-t-lg lg:rounded-l-lg lg:rounded-tr-none'>
                 <div className='aspect-square lg:aspect-auto lg:h-[568px] p-12 flex flex-col'>
                   <span className='mb-8 text-xl text-stone-50'>Knowledge</span>
                   <div className='my-auto'>
@@ -436,9 +436,9 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* Right side - Knowledge UI */}
-              <div className='bg-[#e4e0dd] rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none overflow-hidden'>
+              {/* <div className='bg-[#e4e0dd] rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none overflow-hidden'>
                 <div className='aspect-square lg:aspect-auto lg:h-[568px] p-8 flex items-center justify-center'>
                   <div className='p-6 w-full max-w-md bg-white rounded-lg shadow-lg'>
                     <div className='mb-4 text-sm text-gray-400'>EUR-Lex</div>
@@ -447,7 +447,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Vault Card */}
@@ -456,19 +456,19 @@ export default function Home() {
               <div className='bg-[#e4e0dd] rounded-t-lg lg:rounded-l-lg lg:rounded-tr-none overflow-hidden'>
                 <div className='aspect-square lg:aspect-auto lg:h-[568px] p-8 flex items-center justify-center'>
                   {/* Vault UI mockup */}
-                  <div className='p-6 w-full max-w-md bg-white rounded-lg shadow-lg'>
+                  {/* <div className='p-6 w-full max-w-md bg-white rounded-lg shadow-lg'>
                     <div className='mb-4'>
                       <p className='text-gray-700'>Upload your documents</p>
                     </div>
                     <div className='p-4 w-full bg-gray-100 rounded-lg'>
                       <p className='text-gray-700'>No file selected</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* Right side - Content */}
               <div className='bg-[#151515] rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none'>
-                <div className='aspect-square lg:aspect-auto lg:h-[568px] p-12 flex flex-col'>
+                {/* <div className='aspect-square lg:aspect-auto lg:h-[568px] p-12 flex flex-col'>
                   <span className='mb-8 text-xl text-stone-50'>Vault</span>
                   <div className='my-auto'>
                     <h3 className='mb-6 text-4xl font-normal sm:text-5xl text-stone-50'>
@@ -500,7 +500,7 @@ export default function Home() {
                       </svg>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -511,9 +511,9 @@ export default function Home() {
       <section className='w-full px-4 sm:px-8 md:px-20 py-24 pb-52 bg-[#0e0d0c]'>
         <div className='mx-auto max-w-7xl'>
           <h2 className='mb-16 text-3xl font-normal text-center sm:text-4xl text-stone-50'>
-            Unlock Professional
+            Get your (un)Professional
             <br />
-            Class AI For Your Firm
+            Lawyer AI For an Edge
           </h2>
 
           <div className='grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-0'>
@@ -615,7 +615,7 @@ export default function Home() {
         <div className='mx-auto max-w-7xl'>
           <div className='grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-24'>
             {/* Left side - Image */}
-            <div className='relative aspect-square lg:h-[560px] bg-[#34322d] rounded-lg overflow-hidden'>
+            {/* <div className='relative aspect-square lg:h-[560px] bg-[#34322d] rounded-lg overflow-hidden'>
               <Image
                 src='/path-to-image.jpg'
                 alt='Professional in discussion'
@@ -624,10 +624,10 @@ export default function Home() {
                 sizes='(max-width: 768px) 100vw, 50vw'
                 priority
               />
-            </div>
+            </div> */}
 
             {/* Right side - Quote */}
-            <div className='flex flex-col justify-center'>
+            {/* <div className='flex flex-col justify-center'>
               <blockquote className='relative'>
                 <h2 className='text-3xl sm:text-4xl text-[#0e0d0c] font-normal mb-8'>
                   &ldquo;We want to free the lawyer from mundane, routine tasks,
@@ -645,7 +645,7 @@ export default function Home() {
                   </div>
                 </footer>
               </blockquote>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
