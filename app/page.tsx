@@ -238,13 +238,28 @@ export default function Home() {
                 <div className='flex flex-nowrap items-center space-x-12 min-w-max opacity-60'>
                   {/* Placeholder logos */}
                   <div className='flex justify-center items-center w-24 h-20 bg-gray-800 rounded'>
-                    <span className='text-gray-500'>Logo 1</span>
+                    <Image
+                      src='/metalex.svg'
+                      alt='Metalex'
+                      height={80}
+                      width={80}
+                    />
                   </div>
                   <div className='flex justify-center items-center w-24 h-20 bg-gray-800 rounded'>
-                    <span className='text-gray-500'>Logo 2</span>
+                    <Image
+                      src='/logo-mantle-network.svg'
+                      alt='Mantle Network'
+                      height={80}
+                      width={80}
+                    />
                   </div>
-                  <div className='flex justify-center items-center w-24 h-20 bg-gray-800 rounded'>
-                    <span className='text-gray-500'>Logo 3</span>
+                  <div className='flex justify-center items-center w-24 h-20 rounded'>
+                    <Image
+                      src='/safe-logo.png'
+                      alt='Safe Logo'
+                      height={80}
+                      width={80}
+                    />
                   </div>
                   {/* Add more placeholder logos as needed */}
                 </div>
@@ -252,14 +267,29 @@ export default function Home() {
                 {/* Duplicate set for infinite scroll effect */}
                 <div className='flex flex-nowrap items-center space-x-12 min-w-max opacity-60'>
                   {/* Duplicate placeholder logos */}
-                  <div className='flex justify-center items-center w-24 h-20 bg-gray-800 rounded'>
-                    <span className='text-gray-500'>Logo 1</span>
+                  <div className='flex justify-center items-center w-24 rounded h-20s'>
+                    <Image
+                      src='/metalex.svg'
+                      alt='Metalex'
+                      height={80}
+                      width={80}
+                    />
                   </div>
-                  <div className='flex justify-center items-center w-24 h-20 bg-gray-800 rounded'>
-                    <span className='text-gray-500'>Logo 2</span>
+                  <div className='flex justify-center items-center w-24 h-20 rounded'>
+                    <Image
+                      src='/logo-mantle-network.svg'
+                      alt='Mantle Network'
+                      height={80}
+                      width={80}
+                    />
                   </div>
-                  <div className='flex justify-center items-center w-24 h-20 bg-gray-800 rounded'>
-                    <span className='text-gray-500'>Logo 3</span>
+                  <div className='flex justify-center items-center w-24 h-20 rounded'>
+                    <Image
+                      src='/safe-logo.png'
+                      alt='Safe Logo'
+                      height={80}
+                      width={80}
+                    />
                   </div>
                   {/* Add more placeholder logos as needed */}
                 </div>
@@ -268,7 +298,7 @@ export default function Home() {
           </div>
 
           {/* "See Customers" Link */}
-          <div className='mt-8 mb-16 text-center'>
+          {/* <div className='mt-8 mb-16 text-center'>
             <a
               href='#'
               className='inline-flex items-center text-[#8e8b85] hover:text-stone-50 transition-colors text-base font-medium'
@@ -288,7 +318,7 @@ export default function Home() {
                 />
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
